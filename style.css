@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: #e8f0e8;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #2c2c2c;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #3e3e3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.post h2 {
+    color: #333;
+}
+
+.post p {
+    color: #555;
+}
+
+.author {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.comment-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
